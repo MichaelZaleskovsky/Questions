@@ -22,11 +22,12 @@
 	<modules>
 		<module>itemservice</module>
 		<module>userservice</module>
-		<module>configserver</module>
+		<module>configurer</module>
+		<module>eurekaserver</module>
 		<module>Questions.userservice</module>
 		<module>Questions.itemservice</module>
-		<module>Questions.configserver</module>
 		<module>Questions.configurer</module>
+		<module>Questions.eurekaserver</module>
 	</modules>
 
 	<dependencies>
