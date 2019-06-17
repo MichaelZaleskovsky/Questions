@@ -28,6 +28,9 @@
 		<module>Questions.itemservice</module>
 		<module>Questions.configurer</module>
 		<module>Questions.eurekaserver</module>
+		<module>Questions.zuulservice.zuulserver</module>
+		<module>com.questions.zuulserver</module>
+		<module>Questions.zuulserver</module>
 	</modules>
 
 	<dependencies>

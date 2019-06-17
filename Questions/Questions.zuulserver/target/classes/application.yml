@@ -1,0 +1,30 @@
+#security:
+#  basic:
+#    enabled: "false"
+
+server:
+  port: 5555
+  
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaulfZone: http://localhost:8761/eureka
+    
+zuul:
+  routes:
+    user-bootiful-client: /user/**
+    item-bootiful-client: /item/**
+  ignored-services: '*'
+  prefix: /api
+  
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.questions: DEBUG
+    
