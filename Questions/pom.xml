@@ -31,6 +31,7 @@
 		<module>Questions.zuulservice.zuulserver</module>
 		<module>com.questions.zuulserver</module>
 		<module>Questions.zuulserver</module>
+		<module>Questions.authorizationserver</module>
 	</modules>
 
 	<dependencies>
